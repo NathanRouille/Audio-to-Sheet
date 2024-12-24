@@ -11,11 +11,11 @@ This project aims to convert an audio signal into a sheet music representation b
   | Key        | t0   | t1    | ... | tn    |
   |------------|------|-------|-----|-------|
   | do         | true | false | ... | false |
-  | re         | true | true  | ... | false |
+  | re         | false | false  | ... | false |
   | ...        | ...  | ...   | ... | ...   |
-  | si         | true | true  | ... | false |
-  | guitar     | true | true  | ... | false |
-  | percussion | true | true  | ... | false |
+  | si         | true | false  | ... | false |
+  | guitar     | true | false  | ... | false |
+  | percussion | false | true  | ... | false |
 
 > **Note**: Notes are identified only for the guitar, not for percussions. Other instruments are not supported.
 
